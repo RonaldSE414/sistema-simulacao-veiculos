@@ -2,7 +2,7 @@
 
 Projeto desenvolvido para a disciplina de Programação Orientada a Objetos.
 
-## 📌 Objetivo
+## Objetivo
 Criar um sistema de simulação de veículos utilizando conceitos de:
 - Encapsulamento
 - Herança
@@ -12,7 +12,7 @@ Criar um sistema de simulação de veículos utilizando conceitos de:
 
 ---
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 - `Veiculo` (classe base)
 - `Carro`, `Moto`, `Caminhao` (herança)
@@ -21,7 +21,7 @@ Criar um sistema de simulação de veículos utilizando conceitos de:
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 - Criar diferentes tipos de veículos
 - Acelerar e frear (sobrecarga)
@@ -31,4 +31,7 @@ Criar um sistema de simulação de veículos utilizando conceitos de:
 - Tratamento de erros (garagem cheia, sem combustível)
 
 ---
+## Autor
+
+Ronald Machado
 
