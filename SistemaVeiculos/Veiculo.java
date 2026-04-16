@@ -20,7 +20,6 @@ public class Veiculo {
     public double getCombustivel() { return combustivel; }
 
     public void setVelocidade(int velocidade) { this.velocidade = velocidade; }
-    public void setCombustivel(double combustivel) { this.combustivel = combustivel; }
 
     public void acelerar() {
         if (combustivel <= 0) {
@@ -57,7 +56,7 @@ public class Veiculo {
     }
 
     public void interagir(Veiculo outro) {
-        System.out.println("Interagindo com outro veículo");
+        System.out.println("Veículos interagindo");
     }
 
     public double calcularConsumo() {
@@ -65,7 +64,8 @@ public class Veiculo {
     }
 
     public void exibirStatus() {
-        System.out.println("Veículo: " + marca + " " + modelo);
+        System.out.println("Veículo: " + marca + " " + modelo +
+                " - Velocidade: " + velocidade + " km/h");
     }
 
     @Override
@@ -73,7 +73,7 @@ public class Veiculo {
         if (this == obj) return true;
         if (!(obj instanceof Veiculo)) return false;
         Veiculo v = (Veiculo) obj;
-        return placa.equals(v.placa);
+        return this.placa.equals(v.placa);
     }
 
     @Override
