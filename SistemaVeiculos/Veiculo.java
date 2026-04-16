@@ -13,7 +13,6 @@ public class Veiculo {
         this.combustivel = 0;
     }
 
-    // GETS E SETS
     public String getMarca() { return marca; }
     public String getModelo() { return modelo; }
     public int getVelocidade() { return velocidade; }
@@ -23,7 +22,6 @@ public class Veiculo {
     public void setVelocidade(int velocidade) { this.velocidade = velocidade; }
     public void setCombustivel(double combustivel) { this.combustivel = combustivel; }
 
-    // MÉTODOS
     public void acelerar() {
         if (combustivel <= 0) {
             System.out.println("Sem combustível!");
